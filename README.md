@@ -15,3 +15,6 @@ WWU 2019 Design Senior Show
 * Click "Push"
 
 "Develop" branch is where we will make changes to the code, "master" branch is where the final reviewed code will live
+
+**Pull Requests**
+When all the code on the Develop branch has been reviewed and is ready to be finalized, we should make a pull request. There shouldn't be any conflicts, but after the PR is merged **don't** delete the develop branch.
