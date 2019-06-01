@@ -8,12 +8,24 @@
   background-color: var(--red);
 }
 
+.red-text {
+  color: var(--red);
+}
+
 .teal {
   background-color: var(--teal);
 }
 
+.teal-text {
+  color: var(--teal);
+}
+
 .yellow {
   background-color: var(--yellow);
+}
+
+.yellow-text {
+  color: var(--yellow);
 }
 
 .black {
@@ -24,4 +36,3 @@
   width: 100vw;
   height: 100vh;
 }
-
