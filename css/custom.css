@@ -3,3 +3,24 @@
   --yellow: #f1bf45;
   --red: #cf5941;
 }
+
+.red {
+  background-color: var(--red);
+}
+
+.teal {
+  background-color: var(--teal);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.black {
+  background-color: black;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+}
