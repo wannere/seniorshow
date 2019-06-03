@@ -3,10 +3,17 @@
   --yellow: #f1bf45;
   --red: #cf5941;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
   background-color: black;
+}
+
+.section {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
 }
 
 .red {
@@ -27,6 +34,7 @@ body {
 
 .yellow {
   background-color: var(--yellow);
+  min-height: 70vh;
 }
 
 .yellow-text {
@@ -35,11 +43,6 @@ body {
 
 .black {
   background-color: black;
-}
-
-.section {
-  width: 100vw;
-  min-height: 100vh;
 }
 
 .flex {
@@ -106,6 +109,10 @@ body {
   margin-top: .7rem;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .nav:hover {
   background-color: var(--teal);
   color: black;
@@ -124,9 +131,9 @@ body {
 }
 
 .corner3 {
-  -moz-border-radius-bottomright: 25%;
-  -webkit-border-radius-bottomright: 25%;
-  border-radius: 0 0 25% 0;
+  -moz-border-radius-bottomright: 10%;
+  -webkit-border-radius-bottomright: 10%;
+  border-radius: 0 0 10% 0;
 }
 
 .corner4 {
@@ -169,7 +176,8 @@ body {
 }
 
 .ba {
-  width:100%;
+  margin: 0 2%;
+  width: 46%;
 }
 
 .portrait-wrapper {
@@ -177,12 +185,18 @@ body {
   flex-wrap: wrap;
 }
 
+.portrait-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+.portrait {
+  max-width: 100%;
+}
+
 /* Larger than phablet, when grid kicks in */
 @media (min-width: 550px) {
-  .flex {
-    flex-direction: row;
-  }
-
   .margin-top {
     margin-top: 6rem;
   }
@@ -197,20 +211,15 @@ body {
     margin-top: 23rem;
   }
 
+  .corner3 {
+    -moz-border-radius-bottomright: 25%;
+    -webkit-border-radius-bottomright: 25%;
+    border-radius: 0 0 25% 0;
+  }
+
   /*three in a row*/
   .ba {
-    margin: 0 2%;
-    width: 30.6666666667%;
-  }
-
-  .portrait {
-    max-width: 100%;
-  }
-
-  .portrait-link {
-    text-decoration: none;
-    color: black;
-    text-align: center;
+    width: 29.3333333%;
   }
 
   .portrait-link:hover .name {
@@ -224,5 +233,9 @@ body {
   /*five in a row*/
   .ba {
     width: 16%
+  }
+
+  .flex {
+    flex-direction: row;
   }
 }
