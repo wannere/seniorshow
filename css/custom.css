@@ -213,10 +213,6 @@ body {
     text-align: center;
   }
 
-  .name {
-    transition: 0.2s ease;
-  }
-
   .portrait-link:hover .name {
     background-color: black;
     color: var(--teal);
