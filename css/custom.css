@@ -34,7 +34,7 @@ body {
 
 .yellow {
   background-color: var(--yellow);
-  min-height: 70vh;
+  min-height: 75vh;
 }
 
 .yellow-text {
@@ -195,8 +195,20 @@ body {
   max-width: 100%;
 }
 
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
 /* Larger than phablet, when grid kicks in */
 @media (min-width: 550px) {
+  .margin-bottom {
+    margin-bottom: auto;
+  }
+
   .margin-top {
     margin-top: 6rem;
   }
