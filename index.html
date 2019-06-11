@@ -5,9 +5,11 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>WWU 2019 Senior Design Show</title>
   <meta name="description" content="">
   <meta name="author" content="">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="seniorshow.js"></script>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,27 +17,249 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://use.typekit.net/wgw1qxb.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=zXb9dbNev8">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=zXb9dbNev8">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=zXb9dbNev8">
+  <link rel="manifest" href="/site.webmanifest?v=zXb9dbNev8">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg?v=zXb9dbNev8" color="#0093a0">
+  <link rel="shortcut icon" href="/favicon.ico?v=zXb9dbNev8">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+  <div class="section black teal-text">
+    <div class="container">
+      <div class="row flex">
+        <a href="#about" class="nav teal-text"><h3>About</h3></a>
+        <a href="#speaker" class="nav teal-text"><h3>Speaker</h3></a>
+        <a href="#ba" class="nav teal-text"><h3>BA seniors</h3></a>
+        <a href="#bfa" class="nav teal-text"><h3>BFA seniors</h3></a>
+        <a href="#directions" class="nav teal-text"><h3>Directions</h3></a>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <img src="images/DSGN.png" alt="" class="margin-bottom u-max-full-width">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section red corner2" id="about">
+    <div class="container">
+      <div class="six columns margin-top">
+        <div class="row">
+          <h3 class="rednav_rev sectionnav">About</h3>
+        </div>
+        <div class="row">
+          <h1>Come join us!</h1>
+          <p>Western Washington is proud to present the Senior Portfolio Design Show for 2019! We invite you to come and view work from all of our 37 senior student designers. On display will be projects from graphics, motion, web, packaging, user experience and many other areas of design. We encourage you to come and explore all of the work our talented designers have to offer!</p>
+        </div>
+      </div>
+      <div class="five columns margin-top-big offset-by-one">
+        <div class="row">
+          <h2>Friday June 14th</h2>
+          <h2>Guest Speaker 11:30</h2>
+          <h2>Event 1–4</h2>
+          <h2>Academic West</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section black yellow-text" id="speaker">
+    <div class="container">
+      <div class="seven columns">
+        <div class="row margin-top">
+          <h3 class="sectionnav yellownav">Guest speaker</h3>
+        </div>
+        <div class="row">
+          <h1>Carson Ting</h1>
+        </div>
+      </div>
+      <div class="twelve columns margin-bottom">
+        <div class="seven columns">
+          <div class="row">
+            <img src="images/ting.jpg" alt="Carson Ting in his studio" class="u-max-full-width">
+          </div>
+        </div>
+        <div class="five columns">
+          <div class="row">
+            <p>Carson Ting is a designer based in Vancouver, Canada who enjoys freelance art direction, illustration, mural painting, and app building. An advertising art director, illustrator, and owner of experimental workshop Chairman Ting Industries, Carson has worked with brands such as Microsoft, adidas Originals, Telus, and more. Come and hear Carson talk about his experiences in the industry. </p>
+          </div>
+          <div class="row">
+            <a href="http://www.carsonting.com/" target="_blank" class="link"><h4 class="sectionnav yellownav linkyellow link margin-bottom">View his work</h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section teal corner3" id="ba">
+    <div class="container">
+      <div class="row">
+
+      </div>
+      <div class="margin-top portrait-wrapper">
+        <div class="ba"><h3 class="sectionnav tealnav_rev">BA Seniors</h3></div>
+        <div class="ba">
+          <span class="portrait-link"><img src="images/abigail.jpg" class="portrait"><p class="name">Abigail Bailey</p></span>
+        </div>
+        <div class="ba">
+          <a href="http://www.tristanbedell.co" target="_blank" class="portrait-link"><img src="images/tristan.jpg" class="portrait"><p class="name">Tristan Bedell</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.emilyjbrowndesign.com" target="_blank" class="portrait-link"><img src="images/emilyb.jpg" class="portrait"><p class="name">Emily Brown</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.elizabethcrookes.design" target="_blank" class="portrait-link"><img src="images/liz.jpg" class="portrait"><p class="name">Elizabeth Crookes</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.suzannaoneill.com" target="_blank" class="portrait-link"><img src="images/suzanna.jpg" class="portrait"><p class="name">Suzanna Cunningham</p></a>
+        </div>
+        <div class="ba">
+          <span href="http://www.blakeelliot.design" target="_blank" class="portrait-link"><img src="images/blake.jpg" class="portrait"><p class="name">Blake Elliot</p></span>
+        </div>
+        <div class="ba">
+          <a href="http://www.paigeflock.design" target="_blank" class="portrait-link"><img src="images/paige.jpg" class="portrait"><p class="name">Paige Flock</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://nckgrffndsgn.com/index!.php" target="_blank" class="portrait-link"><img src="images/nick.jpg" class="portrait"><p class="name">Nicholas Griffin</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.cadehawks.com" target="_blank" class="portrait-link"><img src="images/cade.jpg" class="portrait"><p class="name">Cade Hawks</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.juliahermsen.myportfolio.com" target="_blank" class="portrait-link"><img src="images/julia.jpg" class="portrait"><p class="name">Julia Hermsen</p></a>
+        </div>
+        <div class="ba">
+          <a href="https://herrs5.wixsite.com/thesageaesthetic" target="_blank" class="portrait-link"><img src="images/sage.jpg" class="portrait"><p class="name">Sage Herr</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.tylerhoback.com" target="_blank" class="portrait-link"><img src="images/tyler.jpg" class="portrait"><p class="name">Tyler Hoback</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.ethanholzer.com" target="_blank" class="portrait-link"><img src="images/ethan.jpg" class="portrait"><p class="name">Ethan Holzer</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.capriellejarvi.com" target="_blank" class="portrait-link"><img src="images/cappy.jpg" class="portrait"><p class="name">Caprielle Jarvi</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.jacobjones.design" target="_blank" class="portrait-link"><img src="images/jacob.jpg" class="portrait"><p class="name">Jacob Jones</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.hannahjuth.com" target="_blank" class="portrait-link"><img src="images/hannah.jpg" class="portrait"><p class="name">Hannah Juth</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.vizualjunkie.com" target="_blank" class="portrait-link"><img src="images/benjamin.jpg" class="portrait"><p class="name">Benjamin Lemke</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.kenziemahoskey.com" target="_blank" class="portrait-link"><img src="images/kenzie.jpg" class="portrait"><p class="name">Kenzie Mahoskey</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.mangionedesigns.weebly.com" target="_blank" class="portrait-link"><img src="images/liv.jpg" class="portrait"><p class="name">Olivia Mangione</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.alexmayberry.github.io" target="_blank" class="portrait-link"><img src="images/alex.jpg" class="portrait"><p class="name">Alex Mayberry</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.murraydesign.net" target="_blank" class="portrait-link"><img src="images/john.jpg" class="portrait"><p class="name">John Murray</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.maxparsonsdesign.myportfolio.com" target="_blank" class="portrait-link"><img src="images/max.jpg" class="portrait"><p class="name">Max Parsons</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.madebymaxwell.com" target="_blank" class="portrait-link"><img src="images/maxwell.jpg" class="portrait"><p class="name">Maxwell Prendergast</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.aprozinski.myportfolio.com" target="_blank" class="portrait-link"><img src="images/alicia.jpg" class="portrait"><p class="name">Alicia Prozinski</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.berenicepuente.com" target="_blank" class="portrait-link"><img src="images/berenice.jpg" class="portrait"><p class="name">Berenice Puente Ibarra</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.katierobinson.design" target="_blank" class="portrait-link"><img src="images/katie.jpg" class="portrait"><p class="name">Katie Robinson</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.brischlemmer.com" target="_blank" class="portrait-link"><img src="images/bri.jpg" class="portrait"><p class="name">Briana Schlemmer</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.alisyndesign.com" target="_blank" class="portrait-link"><img src="images/alisyn.jpg" class="portrait"><p class="name">Alisyn Schmidt</p></a>
+        </div>
+        <div class="ba">
+          <span href="" target="_blank" class="portrait-link"><img src="images/grace.jpg" class="portrait"><p class="name">Grace Schmidt</p></span>
+        </div>
+        <div class="ba">
+          <a href="http://nicolesievers.squarespace.com" target="_blank" class="portrait-link"><img src="images/nicole.jpg" class="portrait"><p class="name">Nicole Sievers</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.stephensmith.design" target="_blank" class="portrait-link"><img src="images/stephen.jpg" class="portrait"><p class="name">Stephen Smith</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.kayleysonheim.com" target="_blank" class="portrait-link"><img src="images/kayley.jpg" class="portrait"><p class="name">Kayley Sonheim</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.roguestoppard.com" target="_blank" class="portrait-link"><img src="images/rogue.jpg" class="portrait"><p class="name">Rogue Stoppard</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.drsweetsdesign.com" target="_blank" class="portrait-link"><img src="images/andrew.jpg" class="portrait"><p class="name">Andrew Sweeting</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.caseybthomas.com" target="_blank" class="portrait-link"><img src="images/casey.jpg" class="portrait"><p class="name">Casey Thomas</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.emilywanner.design" target="_blank" class="portrait-link"><img src="images/emily.jpg" class="portrait"><p class="name">Emily Wanner</p></a>
+        </div>
+        <div class="ba">
+          <a href="http://www.jordanwheelerdesign.com/" target="_blank" class="portrait-link"><img src="images/jordan.jpg" class="portrait"><p class="name">Jordan Wheeler</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section black red-text" id="bfa">
+    <div class="container">
+      <div class="seven columns">
+        <div class="row margin-top">
+          <h3 class="sectionnav rednav">BFA seniors</h3>
+        </div>
+      </div>
+      <div class="twelve columns margin-bottom">
+        <div class="five columns margin-top">
+          <div class="row">
+            <p>The Design BFA is an optional extra year of the design program where they can further improve their skills and explore their potential. They’ve been hard at work on their projects all year and have dedicated their time to further mastering the craft.</p>
+          </div>
+          <div class="row">
+            <a href="http://www.wwudesignbfa.com/" target="_blank" class="link"><h4 class="sectionnav rednav linkred link">Visit their website</h4></a>
+          </div>
+        </div>
+        <div class="seven columns">
+          <div class="row">
+            <img src="images/bfa.jpg" alt="BFA students" class="u-max-full-width">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="yellow section corner4" id="directions">
+    <div class="container">
+      <div class="row padding-top">
+        <div class="six columns">
+          <h3 class="sectionnav yellownav_rev">Directions</h3>
+          <p class="margin-top">Need help finding your way to Academic West? Say no more. Thank you and we hope to see you there! </p>
+        </div>
+        <div class="six columns text-right">
+          <a href="http://www.wwu.edu/parking/visitors.shtml" target="_blank" class="link-yel"><h4 class="sectionnav yellownav_rev linkyellow_rev link-yel">Parking & Visitor Info</h4></a><br/><br/>
+          <a href="http://www.google.com/maps/dir//Academic+Instructional+Center+West+(AW),+259-333+21st+St,+Bellingham,+WA+98225/@48.7331546,-122.5566562,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x5485a3ccd778adf9:0xae941f6af2981e97!2m2!1d-122.4866222!2d48.7320633" target="_blank" class="link-yel margin-top"><h4 class="sectionnav yellownav_rev linkyellow_rev link-yel margin-bottom">Get Directions</h4></a>
+        </div>
       </div>
     </div>
   </div>
